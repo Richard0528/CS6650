@@ -1,4 +1,4 @@
-package org.richardyang.client.part2;
+package org.richardyang.client;
 
 import io.swagger.client.model.SwipeDetails;
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
@@ -14,7 +14,7 @@ public class Main {
     /**
      * Base Url for Twinder
      */
-    private static final String TWINDER_BASE_URL = "http://35.92.118.117:8080/Twinder";
+    private static final String TWINDER_BASE_URL = "http://<Server IP>:8080/Twinder";
     /**
      * Shared buffer queue size
      */
@@ -62,7 +62,7 @@ public class Main {
      */
     private static void write(ConcurrentLinkedQueue<String> records) throws IOException {
 
-        File file = File.createTempFile("metricOutput", ".csv", new File("/Users/richardyang/Downloads/metricOutput"));
+        File file = File.createTempFile("metricOutput", ".csv", new File("/Users/<username>/Downloads/metricOutput"));
 
         FileWriter writer = new FileWriter(file);
 
