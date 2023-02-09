@@ -10,18 +10,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e042101-8182-4fa5-a652-0aa45dbd8b01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Twinder.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Twinder_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TwinderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/ResponseMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/SwipeDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/.swagger-codegen-ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/.swagger-codegen/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/build.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/docs/ResponseMsg.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/docs/SwipeApi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/docs/SwipeDetails.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/git_push.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/ApiCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/ApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/GzipRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/JSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/ProgressRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/ProgressResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/api/SwipeApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/auth/ApiKeyAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/auth/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/auth/HttpBasicAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/auth/OAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/auth/OAuthFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/model/ResponseMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/io/swagger/client/model/SwipeDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/org/richardyang/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/org/richardyang/client/part1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/org/richardyang/model/PoisonPill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/org/richardyang/multiThread/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/org/richardyang/multiThread/ConsumerWithMetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/org/richardyang/multiThread/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/test/java/io/swagger/client/api/SwipeApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/.swagger-codegen-ignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/.swagger-codegen-ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/.swagger-codegen/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/.swagger-codegen/VERSION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/docs/ResponseMsg.md" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/docs/ResponseMsg.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/docs/SwipeApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/docs/SwipeApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/docs/SwipeDetails.md" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/docs/SwipeDetails.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/git_push.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/git_push.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/ApiCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/ApiCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/ApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/ApiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/GzipRequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/GzipRequestInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/JSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/JSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/ProgressRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/ProgressRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/ProgressResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/ProgressResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/api/SwipeApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/api/SwipeApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/auth/ApiKeyAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/auth/ApiKeyAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/auth/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/auth/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/auth/HttpBasicAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/auth/HttpBasicAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/auth/OAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/auth/OAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/auth/OAuthFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/auth/OAuthFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/model/ResponseMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/model/ResponseMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/model/SwipeDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/io/swagger/client/model/SwipeDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/org/richardyang/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/SwipeApiExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/org/richardyang/SwipeApiExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/client/part1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/org/richardyang/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/client/part2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part2/src/main/java/org/richardyang/client/part2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/model/PoisonPill.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/org/richardyang/model/PoisonPill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/multiThread/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/org/richardyang/multiThread/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/multiThread/ConsumerWithMetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/org/richardyang/multiThread/ConsumerWithMetric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/multiThread/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/main/java/org/richardyang/multiThread/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwinderClient/src/test/java/io/swagger/client/api/SwipeApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwinderClient-Part1/src/test/java/io/swagger/client/api/SwipeApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +129,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -61,23 +154,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/richardyang/Documents/CS6550/assignments/Twinder/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.18505748",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/richardyang/Documents/CS6550/assignments/Twinder/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.18505748&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -186,6 +279,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675541273057</updated>
       <workItem from="1675541275822" duration="14472000" />
+      <workItem from="1675840297727" duration="1676000" />
     </task>
     <servers />
   </component>
