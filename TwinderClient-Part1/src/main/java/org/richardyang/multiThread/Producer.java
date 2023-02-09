@@ -30,9 +30,6 @@ public class Producer implements Runnable {
 
     private void generateDetails() throws InterruptedException {
 
-//        SwipeDetails gg = new SwipeDetails();
-//        numbersQueue.put(gg);
-
         byte[] array = new byte[256];
 
         for (int i = 0; i < count; i++) {

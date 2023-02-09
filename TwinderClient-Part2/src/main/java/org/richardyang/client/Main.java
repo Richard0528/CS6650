@@ -14,7 +14,7 @@ public class Main {
     /**
      * Base Url for Twinder
      */
-    private static final String TWINDER_BASE_URL = "http://<Server IP>:8080/Twinder";
+    private static final String TWINDER_BASE_URL = "http://54.218.118.199:8080/Twinder";
     /**
      * Shared buffer queue size
      */
@@ -62,7 +62,7 @@ public class Main {
      */
     private static void write(ConcurrentLinkedQueue<String> records) throws IOException {
 
-        File file = File.createTempFile("metricOutput", ".csv", new File("/Users/<username>/Downloads/metricOutput"));
+        File file = File.createTempFile("metricOutput", ".csv", new File("/Users/richardyang/Downloads/metricOutput"));
 
         FileWriter writer = new FileWriter(file);
 
@@ -96,7 +96,7 @@ public class Main {
          * Number of successful requests sent: 500000
          * Number of unsuccessful requests: 0
          * The total run time for all phases to complete: 116s
-         * The total throughput in requests per second: 4310 vs 437 from previous
+         * The total throughput in requests per second: 4310
          */
         for (int j = 0; j < N_CONSUMERS; j++) {
             new Thread(new ConsumerWithMetric(queue, completed, TWINDER_BASE_URL, consumeSuccessCount, consumeFailedCount, writeOut)).start();

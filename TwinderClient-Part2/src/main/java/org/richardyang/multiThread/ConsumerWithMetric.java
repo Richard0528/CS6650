@@ -50,16 +50,16 @@ public class ConsumerWithMetric implements Runnable {
 
                     try {
                         long startTime = System.currentTimeMillis();
+                        // call /swipe
                         ApiResponse res = apiInstance.swipeWithHttpInfo(body, leftOrRight[ThreadLocalRandom.current().nextInt(2)]);
+                        long wallTime = System.currentTimeMillis() - startTime;
+
+                        sb.append(startTime);
+                        sb.append(",POST,");
+                        sb.append(wallTime);
 
                         if (res.getStatusCode() == 201) {
-                            long wallTime = System.currentTimeMillis() - startTime;
-                            sb.append(startTime);
-                            sb.append(",POST,");
-                            sb.append(wallTime);
                             sb.append(",201\n");
-                            writeOut.add(sb.toString());
-                            sb.setLength(0);
                             consumeSuccessCount.incrementAndGet();
                         }
 
@@ -67,13 +67,22 @@ public class ConsumerWithMetric implements Runnable {
 
                     } catch (ApiException e) {
                         System.err.println(Thread.currentThread().getName() + " result: " + e.getCode());
+                        sb.append(",");
+                        sb.append(e.getCode());
+                        sb.append("\n");
+                        writeOut.add(sb.toString());
+                        sb.setLength(0);
                     }
 
                     retries++;
                 } while (retries < 6);
 
                 if (retries == 6) {
+                    // failed
                     consumeFailedCount.incrementAndGet();
+                } else {
+                    writeOut.add(sb.toString());
+                    sb.setLength(0);
                 }
 
                 completed.countDown();
