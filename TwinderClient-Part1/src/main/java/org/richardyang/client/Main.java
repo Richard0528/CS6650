@@ -12,8 +12,7 @@ public class Main {
     /**
      * Base Url for Twinder
      */
-//    private static final String TWINDER_BASE_URL = "http://34.214.20.154:8080/TwinderWithMQ";
-    private final static String TWINDER_BASE_URL = "http://Twinder-alb-1394723169.us-west-2.elb.amazonaws.com:8080/TwinderWithMQ";
+    private static final String TWINDER_BASE_URL = "http://<Server IP>:8080/Twinder";
     /**
      * Shared buffer queue size
      */

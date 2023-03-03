@@ -10,14 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e042101-8182-4fa5-a652-0aa45dbd8b01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/src/main/java/RabbitMQConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TwinderMQMatchConsumer/src/main/java/RabbitMQMatchConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rmq/RMQChannelFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rmq/RMQChannelPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Twinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Twinder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TwinderClient-Part1/src/main/java/org/richardyang/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TwinderClient-Part1/src/main/java/org/richardyang/client/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/assignments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/TwinderMQConsumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQMatchConsumer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQMatchConsumer/.idea/jarRepositories.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,23 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/richardyang/Documents/CS6550/assignments/assignment2/TwinderWithMQ",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.18505748",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/richardyang/Documents/CS6550/assignments/assignment2/TwinderWithMQ&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.18505748&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -188,6 +188,7 @@
       <workItem from="1677371403195" duration="48563000" />
       <workItem from="1677814140246" duration="1472000" />
       <workItem from="1677818356105" duration="484000" />
+      <workItem from="1677819893279" duration="58000" />
     </task>
     <servers />
   </component>
