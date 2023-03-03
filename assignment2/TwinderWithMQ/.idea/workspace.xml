@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Twinder:war exploded" />
+      <artifact name="TwinderWithMQ:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -11,9 +11,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1e042101-8182-4fa5-a652-0aa45dbd8b01" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/src/main/java/consumer/RabbitMQConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TwinderWithMQ/src/main/java/rmq/RMQChannelFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TwinderWithMQ/src/main/java/rmq/RMQChannelPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/src/main/java/RabbitMQConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQMatchConsumer/src/main/java/RabbitMQMatchConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rmq/RMQChannelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rmq/RMQChannelPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Twinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Twinder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TwinderClient-Part1/src/main/java/org/richardyang/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TwinderClient-Part1/src/main/java/org/richardyang/client/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -53,23 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/richardyang/Documents/CS6550/assignments/Twinder/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.28448275&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/richardyang/Documents/CS6550/assignments/assignment2/TwinderWithMQ",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.18505748",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -81,11 +85,13 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.72" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.72" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/TwinderWithMQ_war_exploded/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="Twinder:war exploded">
+        <artifact name="TwinderWithMQ:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/Twinder_war_exploded" />
+            <option name="CONTEXT_PATH" value="/TwinderWithMQ_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -163,7 +169,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Twinder:war exploded" />
+          <artifact name="TwinderWithMQ:war exploded" />
         </option>
       </method>
     </configuration>
@@ -179,14 +185,19 @@
       <workItem from="1675541275822" duration="14472000" />
       <workItem from="1675840297727" duration="3602000" />
       <workItem from="1675924197386" duration="167000" />
-      <workItem from="1677446715181" duration="100000" />
-      <workItem from="1677448788476" duration="1870000" />
-      <workItem from="1677648641954" duration="14000" />
-      <workItem from="1677648912847" duration="609000" />
+      <workItem from="1677371403195" duration="48563000" />
+      <workItem from="1677814140246" duration="1472000" />
+      <workItem from="1677818356105" duration="484000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>

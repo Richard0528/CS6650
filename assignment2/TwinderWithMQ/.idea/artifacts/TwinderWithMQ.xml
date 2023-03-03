@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TwinderWithMQ">
+    <output-path>$PROJECT_DIR$/out/artifacts/TwinderWithMQ</output-path>
+    <root id="archive" name="TwinderWithMQ.war">
+      <element id="artifact" artifact-name="TwinderWithMQ:war exploded" />
+    </root>
+  </artifact>
+</component>
