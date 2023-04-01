@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TwinderWithDB">
+    <output-path>$PROJECT_DIR$/../TwinderWithDB/out/artifacts/TwinderWithDB</output-path>
+    <root id="archive" name="TwinderWithDB.war">
+      <element id="artifact" artifact-name="TwinderWithDB:war exploded" />
+    </root>
+  </artifact>
+</component>

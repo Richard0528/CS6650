@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TwinderWithDB" />
+      <artifact name="TwinderWithDB:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e042101-8182-4fa5-a652-0aa45dbd8b01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/assignments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignment2/TwinderMQConsumer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignment2/TwinderMQConsumer/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignment2/TwinderMQConsumer/TwinderMQConsumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignment2/TwinderMQConsumer/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignment2/TwinderMQConsumer/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignment2/TwinderMQMatchConsumer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignment2/TwinderMQMatchConsumer/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/.swagger-codegen-ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/.swagger-codegen/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/build.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/docs/ResponseMsg.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/docs/SwipeApi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/docs/SwipeDetails.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/git_push.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/ApiCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/ApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/GzipRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/JSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/ProgressRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/ProgressResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/api/MatchesApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/api/StatsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/api/SwipeApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/auth/ApiKeyAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/auth/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/auth/HttpBasicAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/auth/OAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/auth/OAuthFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/model/MatchStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/model/Matches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/model/ResponseMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/io/swagger/client/model/SwipeDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/client/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/http/SimpleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/model/PoisonPill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/multiThread/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/multiThread/GetThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/main/java/org/richardyang/multiThread/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderClient/src/test/java/io/swagger/client/api/SwipeApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/.idea/artifacts/TwinderMQConsumer_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/.idea/artifacts/TwinderMQConsumer_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/out/artifacts/TwinderMQConsumer_jar/TwinderMQConsumer.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/src/main/java/RabbitMQConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/src/main/java/consumer/BrokerImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/src/main/java/consumer/ConsumerImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/src/main/java/db/DatabaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/src/main/java/db/SwipeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/src/main/java/model/SwipeDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/src/main/java/model/SwipePayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwinderMQConsumer/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TwinderWithDB.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TwinderWithDB_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB/TwinderWithDB.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/classes/MatchesApiServletlmpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/classes/StatsApiServletlmpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/classes/SwipeApiServletImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/classes/db/DatabaseClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/classes/db/SwipeData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/classes/model/MatchStats.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/classes/model/Matches.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/classes/model/ResponseMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/classes/model/SwipeDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/classes/model/SwipePayload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/classes/rmq/RMQChannelFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/classes/rmq/RMQChannelPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/activation-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/amqp-client-5.16.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/annotations-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/apache-client-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/auth-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/aws-core-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/aws-json-protocol-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/commons-codec-1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/commons-lang3-3.12.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/commons-pool2-2.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/dynamodb-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/dynamodb-enhanced-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/endpoints-spi-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/eventstream-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/gson-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/http-client-spi-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/httpclient-4.5.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/httpcore-4.4.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/javamelody-core-1.92.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/jaxb-api-2.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/jaxb-core-2.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/jaxb-impl-2.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/jrobin-1.5.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/json-utils-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/metrics-spi-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/netty-buffer-4.1.86.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/netty-codec-4.1.86.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/netty-codec-http-4.1.86.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/netty-codec-http2-4.1.86.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/netty-common-4.1.86.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/netty-handler-4.1.86.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/netty-nio-client-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/netty-resolver-4.1.86.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/netty-transport-4.1.86.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/netty-transport-classes-epoll-4.1.86.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/netty-transport-native-unix-common-4.1.86.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/profiles-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/protocol-core-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/reactive-streams-1.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/regions-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/sdk-core-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/slf4j-api-1.7.36.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/slf4j-simple-1.7.36.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/third-party-jackson-core-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib/utils-2.20.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MatchesApiServletlmpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StatsApiServletlmpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SwipeApiServletImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/DatabaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/SwipeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/MatchStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Matches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/ResponseMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/SwipeDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/SwipePayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rmq/RMQChannelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rmq/RMQChannelPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Twinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Twinder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TwinderClient-Part1/src/main/java/org/richardyang/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TwinderClient-Part1/src/main/java/org/richardyang/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignment2/TwinderMQMatchConsumer/src/main/java/consumer/MatchConsumerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assignment2/TwinderMQMatchConsumer/src/main/java/consumer/MatchConsumerImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignment2/TwinderWithMQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../assignment2/TwinderWithMQ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignment2/TwinderWithMQ/src/main/java/TwinderServletWithMQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assignment2/TwinderWithMQ/src/main/java/TwinderServletWithMQ.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LHwMmscIRDS1EgJ0HMTfpBnJUF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/richardyang/Documents/CS6550/assignments/assignment3/TwinderWithDB&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.19799775&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.26037195&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/artifacts/TwinderWithDB_war_exploded/WEB-INF/lib" />
+      <recent name="$PROJECT_DIR$/src/main/java/model" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/api" />
+      <recent name="$PROJECT_DIR$/src/main/java/model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="db" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/TwinderWithDB_war_exploded/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="TwinderWithDB:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/TwinderWithDB_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="09cf5790-ff25-434c-9219-52f47d102052" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65270" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="TwinderWithDB:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e042101-8182-4fa5-a652-0aa45dbd8b01" name="Changes" comment="" />
+      <created>1675541273057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675541273057</updated>
+      <workItem from="1675541275822" duration="14472000" />
+      <workItem from="1675840297727" duration="3602000" />
+      <workItem from="1675924197386" duration="167000" />
+      <workItem from="1677371403195" duration="48563000" />
+      <workItem from="1677814140246" duration="1472000" />
+      <workItem from="1677818356105" duration="484000" />
+      <workItem from="1677819893279" duration="58000" />
+      <workItem from="1677820589068" duration="2772000" />
+      <workItem from="1679770598575" duration="20991000" />
+      <workItem from="1679890599566" duration="27709000" />
+      <workItem from="1680244297778" duration="489000" />
+      <workItem from="1680245116601" duration="1215000" />
+      <workItem from="1680288381161" duration="8820000" />
+      <workItem from="1680312872787" duration="4296000" />
+      <workItem from="1680326203143" duration="245000" />
+      <workItem from="1680330341888" duration="157000" />
+      <workItem from="1680330684402" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+</project>

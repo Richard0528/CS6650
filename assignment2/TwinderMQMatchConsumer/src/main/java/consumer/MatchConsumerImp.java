@@ -55,7 +55,7 @@ public class MatchConsumerImp implements Runnable {
                         return v;
                     });
 
-//                    System.out.println("Received message: " + map.get(payload.getSwipee()) + ", " + map.get(payload.getSwiper()));
+                    System.out.println("Received message: " + map.get(payload.getSwipee()) + ", " + map.get(payload.getSwiper()));
                 }, consumerTag -> System.out.println("Consumer cancelled: " + consumerTag));
 
         } catch (IOException e) {
