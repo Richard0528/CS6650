@@ -1,0 +1,5 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Swipe Request,16000,21,13,315,13.72,0.000%,975.01523,172.12,247.62,180.8
+GetStats Request,64000,192,16,997,88.66,0.005%,573.73375,124.94,78.88,223.0
+GetMatch Request,64000,198,17,1146,92.01,0.000%,572.60446,137.33,79.84,245.6
+TOTAL,144000,176,13,1146,101.37,0.002%,1288.34850,287.29,194.91,228.3
