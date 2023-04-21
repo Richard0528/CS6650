@@ -10,7 +10,6 @@ import software.amazon.awssdk.services.dynamodb.DynamoDbClient;
 import software.amazon.awssdk.services.dynamodb.model.*;
 import software.amazon.awssdk.services.dynamodb.waiters.DynamoDbWaiter;
 
-import javax.naming.ldap.SortKey;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -37,8 +36,8 @@ public class DatabaseClient {
         createTableIfNotExists(tableName);
     }
 
-    public DynamoDbTable<SwipeADO> getSwipeDataTable() {
-        return enhancedClient.table(tableName, TableSchema.fromBean(SwipeADO.class));
+    public DynamoDbTable<SwipeDAO> getSwipeDataTable() {
+        return enhancedClient.table(tableName, TableSchema.fromBean(SwipeDAO.class));
     }
 
     public void createTableIfNotExists(String tableName) {
@@ -55,8 +54,8 @@ public class DatabaseClient {
 
         } catch (ResourceNotFoundException e) {
 
-            DynamoDbTable<SwipeADO> mappedTable =
-                    enhancedClient.table(tableName, TableSchema.fromBean(SwipeADO.class));
+            DynamoDbTable<SwipeDAO> mappedTable =
+                    enhancedClient.table(tableName, TableSchema.fromBean(SwipeDAO.class));
 
             // Cceate the table
             mappedTable.createTable(builder -> builder
@@ -86,9 +85,9 @@ public class DatabaseClient {
         }
     }
 
-    public SwipeADO getCount(DynamoDbTable<SwipeADO> table, String itemId) {
+    public SwipeDAO getCount(DynamoDbTable<SwipeDAO> table, String itemId) {
 
-        SwipeADO result;
+        SwipeDAO result;
 
         try {
             Key key = Key.builder()
@@ -160,10 +159,10 @@ public class DatabaseClient {
                     .dynamoDbClient(client)
                     .build();
 
-            DynamoDbTable<SwipeADO> table = enhancedClient.table(tableName, TableSchema.fromBean(SwipeADO.class));
-            Iterator<SwipeADO> results = table.scan().items().iterator();
+            DynamoDbTable<SwipeDAO> table = enhancedClient.table(tableName, TableSchema.fromBean(SwipeDAO.class));
+            Iterator<SwipeDAO> results = table.scan().items().iterator();
             while (results.hasNext()) {
-                SwipeADO rec = results.next();
+                SwipeDAO rec = results.next();
                 System.out.println("The record id is "+rec.getId());
                 System.out.println("The name is " +rec.toString());
             }

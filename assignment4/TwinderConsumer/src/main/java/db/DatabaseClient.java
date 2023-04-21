@@ -3,19 +3,14 @@ package db;
 import software.amazon.awssdk.core.internal.waiters.ResponseOrException;
 import software.amazon.awssdk.enhanced.dynamodb.*;
 import software.amazon.awssdk.enhanced.dynamodb.model.BatchWriteItemEnhancedRequest;
-import software.amazon.awssdk.enhanced.dynamodb.model.GetItemEnhancedRequest;
 import software.amazon.awssdk.enhanced.dynamodb.model.WriteBatch;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.dynamodb.DynamoDbAsyncClient;
 import software.amazon.awssdk.services.dynamodb.model.*;
-import software.amazon.awssdk.services.dynamodb.DynamoDbClient;
 import software.amazon.awssdk.services.dynamodb.waiters.DynamoDbAsyncWaiter;
-import software.amazon.awssdk.services.dynamodb.waiters.DynamoDbWaiter;
 
-import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.CompletionException;
-import java.util.concurrent.ExecutionException;
 
 public class DatabaseClient {
 
@@ -47,8 +42,8 @@ public class DatabaseClient {
         }
     }
 
-    public DynamoDbAsyncTable<SwipeADO> getSwipeDataTable() {
-        return enhancedClient.table(tableName, TableSchema.fromBean(SwipeADO.class));
+    public DynamoDbAsyncTable<SwipeDAO> getSwipeDataTable() {
+        return enhancedClient.table(tableName, TableSchema.fromBean(SwipeDAO.class));
     }
 
     private void createTableIfNotExists(String tableName, long readCapacity, long writeCapacity) throws InterruptedException {
@@ -65,8 +60,8 @@ public class DatabaseClient {
 
         } catch (CompletionException | ResourceNotFoundException e) {
 
-            DynamoDbAsyncTable<SwipeADO> mappedTable =
-                    enhancedClient.table(tableName, TableSchema.fromBean(SwipeADO.class));
+            DynamoDbAsyncTable<SwipeDAO> mappedTable =
+                    enhancedClient.table(tableName, TableSchema.fromBean(SwipeDAO.class));
 
             // Cceate the table
             mappedTable.createTable(builder -> builder
@@ -98,15 +93,15 @@ public class DatabaseClient {
     }
 
     /**
-     * Create or update items based on the given list of @SwipeADO
+     * Create or update items based on the given list of @SwipeDAO
      * Note: the update action here is overwriting the existing items
      *
      * @param items
      */
-    public void putOrUpdateItems(DynamoDbAsyncTable<SwipeADO> table, List<SwipeADO> items) {
+    public void putOrUpdateItems(DynamoDbAsyncTable<SwipeDAO> table, List<SwipeDAO> items) {
 
         // Create a WriteBatch object and add all the WriteRequest objects to it
-        WriteBatch.Builder<SwipeADO> writeBatchBuilder = WriteBatch.builder(SwipeADO.class).mappedTableResource(table);
+        WriteBatch.Builder<SwipeDAO> writeBatchBuilder = WriteBatch.builder(SwipeDAO.class).mappedTableResource(table);
 
         // Create a list of WriteRequest objects for each item to be written
         items.forEach(writeBatchBuilder::addPutItem);

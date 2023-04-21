@@ -1,5 +1,5 @@
 import db.DatabaseClient;
-import db.SwipeADO;
+import db.SwipeDAO;
 import model.MatchStats;
 import model.ResponseMsg;
 import software.amazon.awssdk.enhanced.dynamodb.DynamoDbTable;
@@ -18,7 +18,7 @@ public class StatsApiServletlmpl extends HttpServlet {
     private static final Region AWS_REGION = Region.US_WEST_2;
     private static final String DB_TABLE_NAME = "TwinderTable_query";
     private DatabaseClient client;
-    private DynamoDbTable<SwipeADO> table;
+    private DynamoDbTable<SwipeDAO> table;
 
     @Override
     public void init() throws ServletException {
@@ -58,7 +58,7 @@ public class StatsApiServletlmpl extends HttpServlet {
             return;
         }
 
-        SwipeADO requested = client.getCount(table, id);
+        SwipeDAO requested = client.getCount(table, id);
 
         if (requested == null) {
             res.setStatus(HttpServletResponse.SC_NOT_FOUND);

@@ -4,16 +4,16 @@ import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbBean;
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbPartitionKey;
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbSortKey;
 
-import java.util.Objects;
+import java.util.*;
 
 @DynamoDbBean
-public class SwipeADO {
+public class SwipeDAO {
 
     private String id;
 
     /**
      * The secondary key to identify what kind of data this row represents
-     * 1. like count and dislike count               -- count_<userId>
+     * 1. like count and dislike count               -- count
      * 2. current user like the other user           -- like_<other userId>
      * 3. current user is liked by the other user    -- isLiked_<other userId>
      */
@@ -25,32 +25,32 @@ public class SwipeADO {
 
     private String otherUserId;
 
-    public SwipeADO() {
+    public SwipeDAO() {
         this.likeCnt = 0;
         this.dislikeCnt = 0;
     }
 
-    public SwipeADO(String id, String identifier) {
+    public SwipeDAO(String id, String identifier) {
         this.id = id;
         this.identifier = identifier;
         this.likeCnt = 0;
         this.dislikeCnt = 0;
     }
 
-    public SwipeADO(String id, String identifier, String otherUserId) {
+    public SwipeDAO(String id, String identifier, String otherUserId) {
         this.id = id;
         this.identifier = identifier;
         this.otherUserId = otherUserId;
     }
 
-    public SwipeADO(String id, String identifier, int likeCnt, int dislikeCnt) {
+    public SwipeDAO(String id, String identifier, int likeCnt, int dislikeCnt) {
         this.id = id;
         this.identifier = identifier;
         this.likeCnt = likeCnt;
         this.dislikeCnt = dislikeCnt;
     }
 
-    public SwipeADO(String id, String identifier, int likeCnt, int dislikeCnt, String otherUserId) {
+    public SwipeDAO(String id, String identifier, int likeCnt, int dislikeCnt, String otherUserId) {
         this.id = id;
         this.identifier = identifier;
         this.likeCnt = likeCnt;
@@ -112,8 +112,8 @@ public class SwipeADO {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        SwipeADO swipeADO = (SwipeADO) o;
-        return likeCnt == swipeADO.likeCnt && dislikeCnt == swipeADO.dislikeCnt && Objects.equals(id, swipeADO.id) && Objects.equals(identifier, swipeADO.identifier) && Objects.equals(otherUserId, swipeADO.otherUserId);
+        SwipeDAO swipeDAO = (SwipeDAO) o;
+        return likeCnt == swipeDAO.likeCnt && dislikeCnt == swipeDAO.dislikeCnt && Objects.equals(id, swipeDAO.id) && Objects.equals(identifier, swipeDAO.identifier) && Objects.equals(otherUserId, swipeDAO.otherUserId);
     }
 
     @Override
@@ -123,7 +123,7 @@ public class SwipeADO {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("SwipeADO{");
+        final StringBuilder sb = new StringBuilder("SwipeDAO{");
         sb.append("id='").append(id).append('\'');
         sb.append(", identifier='").append(identifier).append('\'');
         sb.append(", likeCnt=").append(likeCnt);

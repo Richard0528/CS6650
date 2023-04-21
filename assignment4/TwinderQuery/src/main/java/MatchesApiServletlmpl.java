@@ -1,8 +1,6 @@
 import db.DatabaseClient;
-import db.SwipeADO;
 import model.Matches;
 import model.ResponseMsg;
-import software.amazon.awssdk.enhanced.dynamodb.DynamoDbTable;
 import software.amazon.awssdk.regions.Region;
 
 import javax.servlet.ServletException;

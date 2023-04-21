@@ -1,10 +1,9 @@
 package consumer;
 
 import db.DatabaseClient;
-import db.SwipeADO;
+import db.SwipeDAO;
 import model.SwipePayload;
 import software.amazon.awssdk.enhanced.dynamodb.DynamoDbAsyncTable;
-import software.amazon.awssdk.enhanced.dynamodb.DynamoDbTable;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -18,12 +17,12 @@ import java.util.stream.Stream;
 
 public class ConsumerImp implements Runnable {
 
-    private final ConcurrentHashMap<String, SwipeADO> map;
+    private final ConcurrentHashMap<String, SwipeDAO> map;
     private final BlockingQueue<SwipePayload> queue;
     private final DatabaseClient client;
-    private final DynamoDbAsyncTable<SwipeADO> table;
+    private final DynamoDbAsyncTable<SwipeDAO> table;
 
-    public ConsumerImp(ConcurrentHashMap<String, SwipeADO> map,
+    public ConsumerImp(ConcurrentHashMap<String, SwipeDAO> map,
                        BlockingQueue<SwipePayload> queue,
                        DatabaseClient client) {
         this.map = map;
@@ -35,7 +34,7 @@ public class ConsumerImp implements Runnable {
     @Override
     public void run() {
 //        System.out.println("Consumer started");
-        List<SwipeADO> records = new ArrayList<>(25);
+        List<SwipeDAO> records = new ArrayList<>(25);
         Set<String> idList = new HashSet<>();
         int counter = 0;
         try {
@@ -54,7 +53,7 @@ public class ConsumerImp implements Runnable {
 
                     map.compute(payload.getSwiper(), (k, v) -> {
                         if (v == null) {
-                            v = new SwipeADO(payload.getSwiper(), "count");
+                            v = new SwipeDAO(payload.getSwiper(), "count");
                         }
 
                         if (payload.isLike()) {
@@ -70,8 +69,8 @@ public class ConsumerImp implements Runnable {
                     }
 
                     if (payload.isLike()) {
-                        records.add(new SwipeADO(payload.getSwiper(), "like_".concat(payload.getSwipee()), payload.getSwipee()));
-                        records.add(new SwipeADO(payload.getSwipee(), "isLiked_".concat(payload.getSwiper()), payload.getSwiper()));
+                        records.add(new SwipeDAO(payload.getSwiper(), "like_".concat(payload.getSwipee()), payload.getSwipee()));
+                        records.add(new SwipeDAO(payload.getSwipee(), "isLiked_".concat(payload.getSwiper()), payload.getSwiper()));
                         counter += 2;
                     }
                 }

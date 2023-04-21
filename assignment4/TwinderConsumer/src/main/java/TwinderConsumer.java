@@ -2,7 +2,7 @@ import com.rabbitmq.client.*;
 import consumer.BrokerImp;
 import consumer.ConsumerImp;
 import db.DatabaseClient;
-import db.SwipeADO;
+import db.SwipeDAO;
 import model.SwipePayload;
 import software.amazon.awssdk.regions.Region;
 
@@ -50,7 +50,7 @@ public class TwinderConsumer {
         new Thread(new BrokerImp(queue, channel, queueName)).start();
 
         // Start actual consumers
-        ConcurrentHashMap<String, SwipeADO> map = new ConcurrentHashMap<>();
+        ConcurrentHashMap<String, SwipeDAO> map = new ConcurrentHashMap<>();
 
         // Dynamo db client is thread-safe, so only once instance is needed
         DatabaseClient client = new DatabaseClient(AWS_REGION, DB_TABLE_NAME);
